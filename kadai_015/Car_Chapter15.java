@@ -13,7 +13,7 @@ public class Car_Chapter15 {
 	}
 	
 	//【メソッド gearChange】ギアの値により速度を変える
-	public void gearChange(int afterGear) {
+	public void changeGear(int afterGear) {
 		System.out.println("ギア" + this.gear + "から" + afterGear + "に切り替えました");
 		 this.gear=afterGear;
          this.speed = switch(this.gear){
